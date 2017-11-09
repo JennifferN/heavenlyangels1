@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("fname");
+      x.value = x.value.toUpperCase();
+    }
+  </script>
+    <meta charset="utf-8">
+    <title>Heavenly Angels | Portrait Studio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Heavenly Angels</h1>
+        <h2>Portrait Studio</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Gallery</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <form action="index.html" method="post">
+          <h1>Schedule Appointment</h1>
+          <fieldset>
+            <legend><span class="number">1</span> Contact Info</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="fname" name="user_name" onblur="myFunction()">
+            <label for="phone">Phone:</label>
+            <input type="phone" id="phone" name="user_phone">
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email">
+            <label>Preference:</label>
+            <input type="radio" id="under_13" value="under_13" name="user_age"><label for=under_13 class="light">Phone</label><br>
+            <input type="radio" id="over_13" value="over_13" name="user_age"><label for=over_13 class="light">Text</label><br>
+            <input type="radio" id="under_13" value="under_13" name="user_age"><label for=under_13 class="light">Email</label><br>
+          </fieldset>
+          <fieldset>
+            <legend><span class="number">2</span> Session Info</legend>
+            <label for="theme">Theme:</label>
+            <textarea id="theme" name="user_theme"></textarea>
+            <label for="total">Total # of People:</label>
+            <select id="total" name="user_total">
+              <option value="one">1</option>
+              <option value="two">2</option>
+              <option value="three">3</option>
+              <option value="four">4</option>
+              <option value="five">5</option>
+              <option value="six_or_more">6+</option>
+            </select>
+            <label>Age(s):</label>
+            <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Newborn</label>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Infant</label>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Toddler</label>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Child</label><br>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Teenager</label>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Adult</label>
+            <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Maternity</label>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Senior</label>
+          </fieldset>
+          <fieldset>
+            <legend><span class="number">3</span> Date & Time</legend>
+            <label for="job">Year:</label>
+            <select id="job" name="user_job">
+              <option value="frontend_developer">2017</option>
+              <option value="php_developer">2018</option>
+            </select>
+            <label for="job">Month:</label>
+            <select id="job" name="user_job">
+              <option value="frontend_developer">January</option>
+              <option value="php_developer">February</option>
+              <option value="python_developer">March</option>
+              <option value="rails_developer">April</option>
+              <option value="web_designer">May</option>
+              <option value="wordpress_developer">June</option>
+              <option value="wordpress_developer">July</option>
+              <option value="wordpress_developer">August</option>
+              <option value="wordpress_developer">September</option>
+              <option value="wordpress_developer">October</option>
+              <option value="wordpress_developer">November</option>
+              <option value="wordpress_developer">December</option>
+            </select>
+            <label for="job">Date:</label>
+            <select id="job" name="user_job">
+              <option value="frontend_developer" >1</option>
+              <option value="php_developer">2</option>
+              <option value="python_developer">3</option>
+              <option value="rails_developer">4</option>
+              <option value="web_designer">5</option>
+              <option value="wordpress_developer">6</option>
+              <option value="wordpress_developer">7</option>
+              <option value="wordpress_developer">8</option>
+              <option value="wordpress_developer">9</option>
+              <option value="wordpress_developer">10</option>
+              <option value="wordpress_developer">11</option>
+              <option value="wordpress_developer">12</option>
+              <option value="frontend_developer">13</option>
+              <option value="php_developer">14</option>
+              <option value="python_developer">15</option>
+              <option value="rails_developer">16</option>
+              <option value="web_designer">17</option>
+              <option value="wordpress_developer">18</option>
+              <option value="wordpress_developer">19</option>
+              <option value="wordpress_developer">20</option>
+              <option value="wordpress_developer">21</option>
+              <option value="wordpress_developer">22</option>
+              <option value="wordpress_developer">23</option>1</option>
+              <option value="wordpress_developer">24</option>
+              <option value="frontend_developer">25</option>
+              <option value="php_developer">26</option>
+              <option value="python_developer">27</option>
+              <option value="rails_developer">28</option>
+              <option value="web_designer">29</option>
+              <option value="wordpress_developer">30</option>
+              <option value="wordpress_developer">31</option>
+            </select>
+            <label for="job">Time:</label>
+            <select id="job" name="user_job">
+              <optgroup label="MORNING">
+                <option value="frontend_developer">9:00am</option>
+                <option value="php_developer">9:30am</option>
+                <option value="python_developer">10:00am</option>
+                <option value="rails_developer">10:30am</option>
+                <option value="web_designer">11:00am</option>
+                <option value="wordpress_developer">11:30am</option>
+              <optgroup label="AFTERNOON">  
+                <option value="wordpress_developer">12:00pm</option>
+                <option value="wordpress_developer">12:30pm</option>
+                <option value="wordpress_developer">1:00pm</option>
+                <option value="wordpress_developer">1:30pm</option>
+                <option value="wordpress_developer">2:00pm</option>
+                <option value="wordpress_developer">2:30pm</option>
+                <option value="frontend_developer">3:00pm</option>
+                <option value="php_developer">3:30pm</option>
+              <optgroup label="EVENING"> 
+                <option value="python_developer">4:00pm</option>
+                <option value="rails_developer">4:30pm</option>
+                <option value="web_designer">5:00pm</option>
+                <option value="wordpress_developer">5:30pm</option>
+                <option value="wordpress_developer">6:00pm</option>
+                <option value="wordpress_developer">6:30pm</option>
+            </select>                            
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,233 @@
+/***********************************************
+GENERAL
+***********************************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('../img/clouds.jpg');
+  background-size: cover;
+  background-position: center; 
+}
+
+#wrapper {
+  max-width: 940px;
+  min-width: 280px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 3%;
+  background-color: rgba(12, 12, 12, 0.281); 
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+  border: #fff 5px solid;
+}
+
+h3 {
+  margin: 0 0 1em 55px;
+  font-size: 1.75em;
+  color: #000;
+}
+
+
+
+/*************************************************
+HEADING
+*************************************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 10px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/*************************************************
+NAVIGATION
+*************************************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/*************************************************
+FOOTER
+*************************************************/
+
+footer {
+  position: relative;
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #000;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  border: rgba(248, 244, 244, 0.144) 2px solid; 
+}
+
+
+
+/*************************************************
+PAGE: GALLERY
+*************************************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+
+#gallery li {
+  float: left;
+  width: 90%;
+  margin: 2.5%;
+  padding: 0;
+  /*box-shadow: 10px 10px rgba(29, 28, 28, 0.384);*/
+}
+
+/*img {
+  margin: -1.5% auto;
+  border: #fff 5px solid;
+}*/
+
+
+
+/*************************************************
+PAGE: ABOUT
+*************************************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+/*************************************************
+PAGE: CONTACT
+*************************************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0 0 10px 55px;
+  margin: 0 0 1px 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  margin: 0 0 3px;
+  padding: 0 0 0 30px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.address2 a {
+  background-image: url('../img/address3.png');
+}
+
+
+
+/*************************************************
+COLORS
+*************************************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* yellow header */
+header {
+  background: rgb(243, 231, 69);
+}
+
+/* nav background on mobile */
+nav {
+  background: #BDAF93;
+}
+
+/* logo text */
+h1, h2 {
+  color: #4BC6F3;
+}
+
+/* links */
+a {
+  color: #000;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #4BC6F3;
+}
+

@@ -1,0 +1,94 @@
+
+body {
+  background: rgb(246, 248, 248);
+  background-image: url('../img/clouds.jpg');
+  background-position: center;
+  background-size: cover;
+  font-size: 100%;
+  padding: 0;
+}
+
+.promos {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.promo {
+  margin: 1em .5em 1.625em;
+  padding: .25em 0 1em;
+  box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.658);
+  background: #BDAF93;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400; 
+  line-height: 1.625;
+  color: rgb(248, 246, 246);
+  text-align: center;
+  float: left;
+  width: 33.333%;
+  margin: 30px 0 50px;
+}
+
+.second promo{
+  background: rgb(243, 231, 69);
+}
+
+h4 {
+  margin: .25em 0 0;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.features {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: #000;
+}
+
+li {
+  padding: .25em 0;
+}
+
+.price {
+  margin: .5em 0;
+  padding: .25em 0;
+  background: rgb(243, 231, 69);
+  font-size: 275%;
+  font-weight: bold;  
+  color: #4BC6F3;
+}
+
+.price:hover {
+  color: #fff;
+}
+
+.book {
+  margin: 2em 24em 0;
+  padding: 2px;
+  list-style: none;
+  float: left;
+  font-weight: bold;
+  
+}
+
+button {
+  margin: 0 0 15% -18px;
+  padding: 1em 3.25em;
+  border: none;
+  border-radius: 40px;
+  background: rgb(243, 231, 69);
+  color: #000;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #BDAF93;
+  color: #fff; 
+}    
+
+.scale {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+}
+
