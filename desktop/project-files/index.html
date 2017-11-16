@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
+    <style type="text/css">
+        a.fancybox:hover img {
+            position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
+        }
+    </style>
   </head>
   <body>
     <header>
@@ -19,6 +25,7 @@
       <nav>
         <ul>
           <li><a href="index.html" class="selected">Gallery</a></li>
+          <li><a href="prices.html">Prices</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -26,35 +33,40 @@
     </header>
     <div id="wrapper">
       <section>
+        <ul class="pageNumbers">
+          <li><a href="index.html"class="selected"> 1 </a><a href="page2.html"> 2 </a>
+        </ul>
+      </section>
+      <section>
         <ul id="gallery">
           <li>
             <a href="img/basketbaby.jpg">
-              <img src="img/basketbaby.jpg" alt="">
+              <img class="fancybox" src="img/basketbaby.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/puppydogtails.jpg">
-              <img src="img/puppydogtails.jpg" alt="">
+              <img class="fancybox" src="img/puppydogtails.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/newbrother.jpg">
-              <img src="img/newbrother.jpg" alt="">
+              <img class="fancybox" src="img/newbrother.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/busybaby.jpg">
-              <img src="img/busybaby.jpg" alt="">
+              <img class="fancybox" src="img/busybaby.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/mesmerize.jpg">
-              <img src="img/mesmerize.jpg" alt="">
+              <img class="fancybox" src="img/mesmerize.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/sweetbaby.jpg">
-              <img src="img/sweetbaby.jpg" alt="">
+              <img class="fancybox" src="img/sweetbaby.jpg" alt="">
             </a>
           </li>
         </ul>
@@ -63,32 +75,32 @@
         <ul id="gallery">
           <li>
             <a href="img/harvestbaby.jpg">
-              <img src="img/harvestbaby.jpg" alt="">
+              <img class="fancybox" src="img/harvestbaby.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/babymom.jpg">
-              <img src="img/babymom.jpg" alt="">
+              <img class="fancybox" src="img/babymom.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/jadebaby.jpg">
-              <img src="img/jadebaby.jpg" alt="">
+              <img class="fancybox" src="img/jadebaby.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/easterbaby.jpg">
-              <img src="img/easterbaby.jpg" alt="">
+              <img class="fancybox" src="img/easterbaby.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/xmasgirl.jpg">
-              <img src="img/xmasgirl.jpg" alt="">
+              <img class="fancybox" src="img/xmasgirl.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/decemberkid.jpg">
-              <img src="img/decemberkid.jpg" alt="">
+              <img class="fancybox" src="img/decemberkid.jpg" alt="">
             </a>
           </li>
         </ul>
@@ -97,32 +109,100 @@
         <ul id="gallery">
           <li>
             <a href="img/expecting.jpg">
-              <img src="img/expecting.jpg" alt="">
+              <img class="fancybox" src="img/expecting.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/threefamily.jpg">
-              <img src="img/threefamily.jpg" alt="">
+              <img class="fancybox" src="img/threefamily.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/santashelper.jpg">
-              <img src="img/santashelper.jpg" alt="">
+              <img class="fancybox" src="img/santashelper.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/boybook.jpg">
-              <img src="img/boybook.jpg" alt="">
+              <img class="fancybox" src="img/boybook.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/heart.jpg">
-              <img src="img/heart.jpg" alt="">
+              <img class="fancybox" src="img/heart.jpg" alt="">
             </a>
           </li>
           <li>
             <a href="img/bittybaby.jpg">
-              <img src="img/bittybaby.jpg" alt="">
+              <img class="fancybox" src="img/bittybaby.jpg"alt="">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href="img/babybird.jpg">
+              <img class="fancybox" src="img/babybird.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="img/babyfeet.jpg">
+              <img class="fancybox" src="img/babyfeet.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="img/funnykids.jpg">
+              <img class="fancybox" src="img/funnykids.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="img/doglover.jpg">
+              <img class="fancybox" src="img/doglover.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="img/brightchild.jpg">
+              <img class="fancybox" src="img/brightchild.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="img/hatboy.jpg">
+              <img class="fancybox" src="img/hatboy.jpg" alt="">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href="img/rockerkid.jpg">
+              <img class="fancybox" src="img/rockerkid.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="img/dollbaby.jpg">
+              <img class="fancybox" src="img/dollbaby.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="img/father.jpg">
+              <img class="fancybox" src="img/father.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="img/cherub.jpg">
+              <img class="fancybox" src="img/cherub.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="img/sillyboy.jpg">
+              <img class="fancybox" src="img/sillyboy.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="img/newfam.jpg">
+              <img class="fancybox" src="img/newfam.jpg" alt="">
             </a>
           </li>
         </ul>
@@ -130,8 +210,12 @@
       <footer>
         <a href="http://twitter.com/heavenlylindsey"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
         <a href="http://facebook.com/heavenlylindsey"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-        <p>&copy; 2007 Heavenly Angels.</p>
+        <p>&copy; 2007 Heavenly Angels</p>
       </footer>
     </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
   </body>
 </html>
