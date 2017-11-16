@@ -163,13 +163,7 @@ PAGE: GALLERY
   width: 90%;
   margin: 2.5%;
   padding: 0;
-  /*box-shadow: 10px 10px rgba(29, 28, 28, 0.384);*/
 }
-
-/*img {
-  margin: -1.5% auto;
-  border: #fff 5px solid;
-}*/
 
 
 
@@ -214,22 +208,8 @@ PAGE: CONTACT
 
 
 
-/*.contact-info li.phone07 a {
-  background-image: url('../img/phone07.png');
-}
-
-.contact-info li.email7 a {
-  background-image: url('../img/email7.png');
-}
-
-.contact-info li.address7 a {
-  background-image: url('../img/address7.png');
-}*/
-
-
-
 /*************************************************
-COLORS
+MORE COLORS
 *************************************************/
 
 /* site body */
